@@ -1,88 +1,88 @@
 _CeladonMansion5Text1::
-	text "I am SHINJUKU"
+	text "¡Soy SHINJUKU"
 	line "JACKY!"
 
-	para "I know everything"
-	line "about the world"
-	cont "of #MON!"
-	
-	para "Hm? You think you" ; if making rematches, use this for prebeat
-	line "can take me?"
+	para "¡Lo sé todo"
+	line "sobre el mundo"
+	cont "de los #MON!"
+
+	para "¿Hm? ¿Cress que" ; if making rematches, use this for prebeat
+	line "puedes conmigo?"
 	done
 
 ; Unused for now. Doesn't make much sense.
 _JackyPostBeatText::
-	text "Wanna fight again?"
-	line "I'm out of your"
-	cont "league!"
+	text "¿Quieres combatir"
+	line "de nuevo? ¡Soy"
+	cont "superior a tí!"
 	prompt
 
 _JackyYes::
-	text "Let's see if you"
-	line "can walk the"
-	cont "walk! Come on!"
+	text "¡Veamos si"
+	line "puedes conmigo!"
+	cont "¡Vamos!"
 	done
 
 _JackyNo::
-	text "Maybe another"
-	line "time..."
+	text "Quizás otra"
+	line "vez..."
 	done
 
 _JackyWinText::
-	text "I'm"
-	line "faster than"
-	cont "lightning!"
+	text "¡Soy más"
+	line "rápido que"
+	cont "el rayo!"
 	prompt
 
 _JackyLossText::
-	text "I can't"
-	line "believe I lost!"
+	text "¡No puedo creer"
+	line "que perdí!"
 	prompt
 
 _JackyThief::
-	text "Hey, what do you"
-	line "think you're"
-	cont "doing?!"
+	text "¿¡Hey, qué crees"
+	line "que estás"
+	cont "haciendo?!"
 	done
 
 _JackyAfterBattle::
-	text "It was like you"
-	line "were fighting in"
-	cont "slow motion..."
+	text "Parecía que"
+	line "combatías en"
+	cont "cámara lenta..."
 	
-	para "Ok! I will give"
-	line "you a gift to"
-	cont "help you on your"
-	cont "quest!"
+	para "¡Ok! ¡Te daré"
+	line "un regalo para"
+	cont "ayudarte en tu"
+	cont "aventura!"
 	
-	para "Over there is a"
-	line "rare #MON!"
+	para "¡En la mesa hay"
+	line "un #MON raro!"
 	
-	para "Go, go, take it!"
+	para "¡Vamos, tómalo!"
 	
 	done
 
 _JackyGift::
-	text "I look forward to"
-	line "our next bout!"
+	text "¡Ansío nuestra"
+	line "próxima contienda!"
 	done
 
 _JackyN64::
-	text "It's a NINTENDO"
-	line "64! The latest"
-	cont "game console!"
+	text "¡Es una NINTENDO"
+	line "64! ¡La última"
+	cont "consola!"
 	done
 
 _JackyTVMario::
-	text "A plumber is"
-	line "jumping around"
-	cont "in 3D! Wow!"
+	text "¡Un fontanero"
+	line "está saltando"
+	cont "en 3D! ¡Wow!"
 	done
 
 _JackyTVWaveRace::
-	text "Some guys in"
-	line "helmets are"
-	cont "racing on the"
-	cont "waves!"
+	text "¡Varios tipos"
+	line "con cascos"
+	cont "están corriendo"
+	cont "en las olas!"
 	done
 

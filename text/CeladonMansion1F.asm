@@ -1,52 +1,52 @@
 _CeladonMansion1Text1::
-	text "MEOWTH: Meow!@"
+	text "MEOWTH: ¡Meow!@"
 	text_end
 
 _CeladonMansion1Text2::
-	text "My dear #MON"
-	line "keep me company."
+	text "Mi querido #MON"
+	line "me hace compañía."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "¡MEOWTH incluso trae"
+	line "dinero a casa!"
 	done
-
+; mi queri
 _CeladonMansion1Text3::
-	text "CLEFAIRY: Pi"
+	text "CLEFAIRY: ¡Pi"
 	line "pippippi!@"
 	text_end
 
 _CeladonMansion1Text4::
-	text "NIDORAN: Kya"
+	text "NIDORAN: ¡Kya"
 	line "kyaoo!@"
 	text_end
 
 _CeladonMansion1Text5::
-	text "CELADON MANSION"
-	line "Manager's Suite"
+	text "MANSIóN AZULONA"
+	line "Suite del Director"
 	done
 
 _CeladonMansionHasTea::
-	text "You shouldn't"
-	line "spend all your"
-	cont "money on drinks."
-	para "Try this instead."
+	text "No deberías gastar"
+	line "todo tu dinero"
+	cont "en bebidas. Intenta"
+	para "esto en su lugar."
 	prompt
 
 _CeladonMansionTeaExplanation::
-	text "Nothing beats"
-	line "thirst like some"
-	cont "hot TEA."
-	para "It truly is the"
-	line "best!"
+	text "Nada sacia la"
+	line "sed como un buen"
+	cont "Té caliente."
+	para "¡Realmente es"
+	line "lo mejor!"
 	done
 
 _CeladonMansionTeaNoRoom::
-	text "Your BAG is full,"
-	line "child!"
+	text "¡Tu MOCHILA está,"
+	line "llena, niño!"
 	done
 
 _ReceivedTeaText::
-	text "<PLAYER> received"
+	text "¡<PLAYER> obtuvo"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"

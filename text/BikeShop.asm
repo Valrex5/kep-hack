@@ -1,71 +1,71 @@
 _BikeShopText_1d810::
-	text "Hi! Welcome to"
-	line "MIRACLE CYCLE."
+	text "¡Hola! Bienvenido a"
+	line "la TIENDA DE BICIS."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "¡Tenemos una BICI"
+	line "para ti!"
 	prompt
 
 _BikeShopText_1d815::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "¡Es una BICI genial!"
+	line "¿La quieres?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "¡Lo siento! ¡No te"
+	line "la puedes permitir!"
 	prompt
 
 _BikeShopText_1d81f::
-	text "Oh, that's..."
+	text "Oh, eso es..."
 
-	para "A BIKE VOUCHER!"
+	para "¡UN BONO BICI!"
 
-	para "OK! Here you go!"
+	para "¡OK! ¡Aquí tienes!"
 	prompt
 
 _BikeShopText_1d824::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> cambió"
+	line "el BONO BICI por"
+	cont "una BICICLETA.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
+	text "¡Espero verte"
+	line "de nuevo!"
 	done
 
 _BikeShopText_1d82f::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "¿Te gusta tu"
+	line "nueva BICICLETA?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "¡Puedes usarla en"
+	line "el CAMINO DE BICIS"
+	cont "y en cuevas!"
 	done
 
 _BikeShopText_1d834::
-	text "You better make"
-	line "room for this!"
+	text "¡Deberías tener"
+	line "espacio para esto!"
 	done
 
 _BikeShopText_1d843::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "¡Una BICI simple de"
+	line "ciudad es suficiente"
+	cont "para mí!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "¡No puedes poner un"
+	line "canasto en una"
+	cont "MTB!"
 	done
 
 _BikeShopText_1d85c::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "¡Estas BICIs son"
+	line "geniales, pero son"
+	cont "demasiado caras!"
 	done
 
 _BikeShopText_1d861::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Wow. ¡Tu BICI es"
+	line "muy genial!"
 	done

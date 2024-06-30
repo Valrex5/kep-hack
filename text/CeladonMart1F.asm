@@ -1,31 +1,31 @@
 _CeladonMart1Text1::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
-
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	text "¡Hola! Bienvenido"
+	line "al CENTRO."
+	cont "COMERCIAL AZULONA."
+; El cartel en al derecha describe 
+	para "El cartel en la"
+	line "derecha describe el"
+	cont "plano de la tienda."
 	done
 
 _CeladonMart1Text2::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "P1: RECEPCIóN"
+	line "    "
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "P2: MERCADO PARA"
+	line "    ENTRENADORES"
 
-	para "3F: TV GAME SHOP"
+	para "P3: TECNOLOGíA"
 
-	para "4F: WISEMAN GIFTS"
+	para "P4: REGALOS"
 
-	para "5F: DRUG STORE"
+	para "P5: FARMACIA"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "TEJADO: MáQUINAS"
+	line "EXPENDEDORAS"
 	done
 
 _CeladonMart1Text3::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "P1: RECEPCIóN"
+	line "    "
 	done

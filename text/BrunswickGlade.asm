@@ -1,48 +1,48 @@
 _BrunswickGladeSign::
-	text "BRUNSWICK GLADE"
-	line "The lush..."
+	text "CLARO BRUNSWICK"
+	line "El exuberante..."
 	
-	para "The sign has been"
-	line "kicked in. It's"
-	cont "impossible to"
-	cont "read..."
+	para "El cartel no está"
+	line "en condiciones. Es"
+	cont "imposible leer una"
+	cont "palabra..."
 	done
 
 _GZapGladeRunText::
-	text "It ran away"
-	line "again..."
+	text "Salió corriendo"
+	line "de nuevo..."
 	done
 
 _BrunswickGladeBattleText1:: ; Leaf
-	text "You're from"
-	line "PALLET TOWN?"
-	cont "So am I!"
+	text "¿Vienes de"
+	line "PUEBLO PALETA?"
+	cont "¡Yo también!"
 	done
 
 _BrunswickGladeEndBattleText1::
-	text "Dang"
-	line "it!" ; Taken from Smash Ultimate when a Pokemon faints. Cryptid moment.
+	text "¡Qué mala"
+	line "suerte!" ; Taken from Smash Ultimate when a Pokemon faints. Cryptid moment.
 	prompt
 
 _BrunswickGladeAfterBattleText1::
-	text "PALLET TOWN is" ; Later in the series, this lore is retroactively added. Here, we're using it for worldbuilding.
-	line "known for its"
-	cont "strong trainers!"
-	
-	para "A RATTATA snuck" ; Masters lore
-	line "into my kitchen"
-	cont "once! They're"
-	cont "everywhere!"
+	text "¡PUEBLO PALETA es" ; Later in the series, this lore is retroactively added. Here, we're using it for worldbuilding.
+	line "conocido por sus"
+	cont "fuertes entrenadores!"
+
+	para "¡Una vez un RATTATA" ; Masters lore
+	line "se metió en mi"
+	cont "cocina! ¡Están"
+	cont "por todas partes!"
 	done
 
 _BrunswickGladeBattleText2:: ; Fuji
-	text "You seem to have"
-	line "raised your #-"
-	cont "MON with love"
-	cont "and care."
+	text "Parece que has"
+	line "criado a tus #-"
+	cont "MON con amor y"
+	cont "cuidado."
 	
-	para "Let's see how"
-	line "they battle!"
+	para "¡Veamos cómo lo"
+	line "hacen en un combate!"
 	done
 
 _BrunswickGladeEndBattleText2::
@@ -50,59 +50,59 @@ _BrunswickGladeEndBattleText2::
 	prompt
 
 _BrunswickGladeAfterBattleText2::
-	text "I've made many"
-	line "mistakes in my"
-	cont "life."
+	text "He cometido"
+	line "varios errores"
+	cont "en mi vida."
 	
-	para "But as long as"
-	line "I learn and do"
-	cont "do better, that"
-	cont "is what truly"
-	cont "matters."
+	para "Pero siempre y"
+	line "cuando aprenda y"
+	cont "mejore, es es lo"
+	cont "que realmente"
+	cont "importa."
 	done
 
 _BrunswickGladeBattleText3:: ; Ariana - uses stad2 quotes
-	text "That sharp gaze..."
+	text "Esa mirada..."
 	
-	para "You seem rather"
-	line "competent."
+	para "Pareces bastante"
+	line "competente."
 	done
 
 _BrunswickGladeEndBattleText3::
-	text "I can't"
-	line "look them in"
-	cont "the face after"
-	cont "this!"
+	text "¡No puedo"
+	line "verles a la "
+	cont "cara después de"
+	cont "esto!"
 	prompt
 
 _BrunswickGladeAfterBattleText3::
-	text "Have you thought"
-	line "about working"
-	cont "for TEAM ROCKET?"
+	text "¿Has pensado en"
+	line "trabajar para el"
+	cont "TEAM ROCKET?"
 	
-	para "No? Forget I"
-	line "said anything."
+	para "¿No? Olvida que"
+	line "dije nada."
 	done
 
 _BrunswickGladeBattleText4:: ; Trace
-	text "Whoa!"
+	text "¡Wow!"
 	
-	para "Oh, you're not"
-	line "that bird #-"
-	cont "MON!"
+	para "¡Oh, no eres"
+	line "ese #MON"
+	cont "pájaro!"
 	done
 
 _BrunswickGladeEndBattleText4::
-	text "Wow!"
-	line "Seriously?"
+	text "¡Wow!"
+	line "¿En serio?"
 	prompt
 
 _BrunswickGladeAfterBattleText4::
-	text "That #MON"
-	line "looked angry!"
-	cont "It booked it"
-	cont "right past me!"
+	text "¡Ese #MON"
+	line "parece enojado!"
+	cont "¡Pasó corriendo"
+	cont "justo a mi lado!"
 	
-	para "Think you can"
-	line "quell it?"
+	para "¿Crees que puedes"
+	line "apaciguarlo?"
 	done

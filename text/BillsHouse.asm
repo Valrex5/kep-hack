@@ -1,105 +1,105 @@
 _BillsHouseText_1e865::
-	text "Hiya! I'm a"
+	text "¡Buenas! Soy un"
 	line "#MON..."
-	cont "...No I'm not!"
+	cont "¡...No, no lo soy!"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MON fanatic!" ; restoring the more accurate translation from LGPE
+	para "¡Llámame BILL!"
+	line "¡Soy un verdadero"
+	cont "fanático #MON!" ; restoring the more accurate translation from LGPE
 	
-	para "Hey! What's with"
-	line "that skeptical"
-	cont "look?"
+	para "¡Hey! ¿Qué con"
+	line "esa mirada"
+	cont "escéptica?"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "¡No te estoy tomando,"
+	line "el pelo, arruiné un"
+	cont "experimento y me"
+	cont "combiné con un"
+	cont "#MON!"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "¿Entonces, qué"
+	line "dices? ¡Ayúdame!"
 	done
 
 _BillsHouseText_1e86a::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "¡Una vez esté en el"
+	line "TELETRANSPORTADOR, ve"
+	cont "a mi PC y prende el"
+	cont "Sistema de Separación"
+	cont "Celular!"
 	done
 
 _BillsHouseText_1e86f::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "¿¡No!? ¡Vamos,"
+	line "tienes que ayudar"
+	cont "a un tipo en problemas!"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "¿Qué dices, jefe?"
+	line "¿Por favor?"
+	cont "¿OK? ¡Muy bien!"
 	prompt
 
 _BillThankYouText::
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "BILL: ¡Vamos!"
+	line "¡Gracias, amigo!"
+	cont "¡Te debo una!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "Entonces, ¿has"
+	line "venido a ver mi"
+	cont "colección #MON?"
+	cont "¿No?"
+	cont "Es una lástima."
 
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	para "Tengo que darte las"
+	line "gracias... Oh, toma,"
+	cont "quizás esto te sirva."
 	prompt
 
 _SSTicketReceivedText::
-	text "<PLAYER> received"
-	line "an @"
+	text "¡<PLAYER> obtuvo"
+	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSTicketNoRoomText::
-	text "You've got too"
-	line "much stuff, bud!"
+	text "¡No tienes"
+	line "espacio, amigo!"
 	done
 
 _BillsHouseText_1e8cb::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "Ese crucero, el,"
+	line "S.S.ANNE, está en"
+	cont "CIUDAD CARMíN."
+	cont "¡Todos sus pasajeros"
+	cont "son entrenadores!"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "Me invitaron a su"
+	line "fiesta, pero no"
+	cont "puedo soportar esos"
+	cont "lugares. ¿Por qué"
+	cont "no vas tú en"
+	cont "mi lugar?"
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Say, pal,"
-	line "you wouldn't"
-	cont "happen to have"
-	cont "one of these,"
-	cont "would you?"
+	text "BILL: Hey, amigo,"
+	line "por casualidad"
+	cont "no tendrás uno"
+	cont "de estos,"
+	cont "¿o sí?"
 	done
 
 _BillsHouseNidorino::
-	text "NIDORINO stares"
-	line "you down..."
+	text "NIDORINO te mira"
+	line "fijamente..."
 	done
 
 _BillWarning::
-	text "BILL: Hey, bud!"
-	line "Stay away from"
-	cont "there, would ya?"
+	text "BILL: ¡Hey, amigo!"
+	line "Mejor aléjate de"
+	cont "ahí, ¿entendido?"
 	
-	para "My prized #MON"
-	line "are in there!"
+	para "¡Allí están mis"
+	line "preciados #MON!"
 	done

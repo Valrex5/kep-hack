@@ -1,79 +1,79 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "¡Soy AGATHA del"
+	line "ALTO MANDO!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "¡OAK ha tomado"
+	line "interés en ti,"
+	cont "niño!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "¡Ese vejestorio fue"
+	line "una vez fuerte y"
+	cont "guapo! ¡Pero eso"
+	cont "fue hace décadas!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "¡Ahora él sólo"
+	line "quiere juguetear"
+	cont "con su #DEX! ¡Se"
+	cont "equivoca! ¡Los #MON"
+	cont "son para combatir!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "¡<PLAYER>! ¡Te mostraré"
+	line "cómo combate un"
+	cont "entrenador de verdad!"
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "¡Jo jo!"
+	line "¡Realmente eres"
+	cont "especial, niño!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "¡Tú gamas! ¡Ya veo"
+	line "lo que ese vejestorio"
+	cont "ve en ti!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "¡Ya no tengo nada"
+	line "más que decir, ¡Ahora"
+	cont "ve ahí fuera, niño!"
 	done
 
 _AgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Alguien te dice:"
+	line "¡No escapes!"
 	done
 
 _AgathaRematchText::
-	text "So you've come!"
+	text "¡Así que llegaste!"
 	
-	para "It's not in my"
-	line "character to lose"
-	cont "over and over."
+	para "No está en mí"
+	line "perder una y otra"
+	cont "vez."
 	
-	para "Give this battle"
-	line "everything you"
-	cont "have!"
+	para "¡Da todo lo que"
+	line "tengas en este"
+	cont "combate!"
 	done
-	
+
 _AgathaRematchEndBattleText::
-	text "Not bad!"
+	text "¡No está mal!"
 	prompt
 
 _AgathaRematchAfterBattleText::
-	text "Small wonder that"
-	line "old-timer's taken"
-	cont "such an interest"
-	cont "in you."
+	text "No es sorpresa que"
+	line "ese anciano haya "
+	cont "tomado tanto interés"
+	cont "en ti."
 	
-	para "...OAK and I used"
-	line "to be good rivals"
-	cont "too, you know."
+	para "...OAK y yo"
+	line "solíamos ser buenos"
+	cont "rivales, sabes."
 	
-	para "Just like you and"
+	para "Justo como tú y"
 	line "<RIVAL>."
 	
-	para "So, what are you"
-	line "waiting for? Off"
-	cont "to the next room!"
+	para "¿Entonces, a qué"
+	line "esperas? ¡Ve a la"
+	cont "siguiente habitación!"
 	
 	done

@@ -1,67 +1,67 @@
 _CaveGuy:: ; Used to describe GZap, but the beauty seemed funnier. Needed some lore for Garnet Cavern, if any.
-	text "I've gone through"
-	line "many caves in my"
-	cont "day, but this one"
-	cont "is taking the"
-	cont "mickey!"
+	text "He atravesadi varias"
+	line "cuevas en mi vida,"
+	cont "¡pero esta es como"
+	cont "si se burlara de"
+	cont "mí!"
 	
-	para "Those #MON are"
-	line "way too strong!"
+	para "¡Estos #MON son"
+	line "demasiado fuertes!"
 	done
 
 _Lover1::
-	text "Here's the spot"
-	line "where she first"
-	cont "confessed to me."
+	text "Este es el lugar"
+	line "donde ella se me"
+	cont "declaró por primera vez."
 	
-	para "Now it's by far"
-	line "my favorite place"
-	cont "in all of KANTO!"
+	para "¡Ahora es de lejos"
+	line "mi lugar favorito"
+	cont "en todo KANTO!"
 	
-	para "Though, any place"
-	line "seems perfect as"
-	cont "long as she's by"
-	cont "my side..."
+	para "Eso sí, cualquier"
+	line "lugar parece perfecto"
+	cont "siempre y cuando ella"
+	cont "esté a mi lado..."
 	done
 
 _Lover2::
-	text "I absolutely love"
-	line "visiting this"
-	cont "TRAIL with my"
-	cont "girlfriend!"
+	text "¡Absolutamente"
+	line "amo visitar este"
+	cont "CAMINO con mi"
+	cont "novia!"
+
+	para "Ver el anochecer"
+	line "mientras escuchas"
+	cont "las olas sonar..."
 	
-	para "Watching the sun"
-	line "set as the waves"
-	cont "gently roll by..."
-	
-	para "It's a beautiful"
-	line "sight, but not as"
-	cont "beautiful as her!"
+	para "¡Es una vista"
+	line "hermosa, pero no tan"
+	cont "hermosa como ella!"
 	done
 
 _BrunswickBattleText1::
-	text "I'm searching"
-	line "for rare bird"
-	cont "#MON!"
+	text "¡Estoy buscando"
+	line "un extraño #MON"
+	cont "pájaro!"
 	done
 
 _BrunswickEndBattleText1::
-	text "Not"
-	line "enough..."
+	text "No es"
+	line "suficiente..."
 	prompt
 
 _BrunswickAfterBattleText1::
-	text "AERODACTYL is the"
-	line "progenitor of"
-	cont "birds."
+	text "AERODACTYL es el"
+	line "progenitor de"
+	cont "las aves."
 	
-	para "It's my prized"
-	line "#MON!"
+	para "¡Es mi #MON"
+	line "más preciado!"
 	done
 
 _BrunswickBattleText2::
-	text "My hubby brought"
-	line "me here!"
+	text "¡Mi marido me"
+	line "trajo aquí!"
 	done
 
 _BrunswickEndBattleText2::
@@ -69,72 +69,72 @@ _BrunswickEndBattleText2::
 	prompt
 
 _BrunswickAfterBattleText2::
-	text "I saw a bird"
-	line "#MON with huge"
-	cont "legs sprint past"
-	cont "me!"
-	
-	para "It almost blew me"
-	line "away! How rude!"
+	text "¡He visto un #MON"
+	line "pájaro con grandes"
+	cont "piernas correr"
+	cont "a mi lado!"
+
+	para "¡Casi me mandó a"
+	line "volar! ¡Qué maleducado!"
 	done
 
 _BrunswickBattleText3::
-	text "The fish here are"
-	line "huge!"
+	text "¡Los peces aquí"
+	line "son gigantes!"
 	done
 
 _BrunswickEndBattleText3::
-	text "Washed"
-	line "up..."
+	text "Perdí el"
+	line "anzuelo..."
 	prompt
 
 _BrunswickAfterBattleText3::
-	text "Catching the fish"
-	line "on this island"
-	cont "is really hard!"
+	text "¡Atrapar peces"
+	line "esta isla es"
+	cont "realmente díficil!"
 	
-	para "The #MON are"
-	line "so distracting!"
+	para "¡Los #MON me"
+	line "distraen!"
 	done
 
 _FakeTreeNoCut::
-	text "This tree can be"
-	line "CUT!"
+	text "¡Puedes CORTAR"
+	line "este árbol!"
 	done
 
 _FakeTreePrompt::
-	text "This tree can be"
-	line "CUT!"
+	text "¡Puedes CORTAR"
+	line "este árbol!"
 	
-	para "Would you like to"
-	line "use CUT?"
+	para "¿Quieres usar"
+	line "CORTE?"
 	prompt
 
 ; The Cut script currently doesn't load what I want it to. Sp, I commented out the RAM and made it "you".
 ; For this to work, I need to make a special version of HasPartyMove.
 _FakeTreeAttack::
 	;text_ram wcd6d
-	text "You tried"
-	line "to hack away..."
+	text "Intentas"
+	line "cortarlo..."
 	
-	para "But it was a"
+	para "¡Pero era un"
 	line "CACTORMUS!"
 	
-	para "It retaliated in"
-	line "a rage!"
+	para "¡Te atacó en"
+	line "su ira!"
 	prompt
 
 _TrailDirections::
-	text "BRUNSWICK TRAIL"
+	text "CAMINO BRUNSWICK"
 	
-	para "Go north for"
-	line "CITRINE CITY!"
+	para "¡Al norte está"
+	line "CIUDAD CITRINO!"
 
-	para "Follow the path"
-	line "to reach GARNET"
-	cont "CAVERN!"
+	para "¡Sigue el camino"
+	line "para llegar a la"
+	cont "CAVERNA GRANATE!"
 
-	para "Go northwest to"
-	line "find BRUNSWICK"
-	cont "GLADE!"
+	para "¡Ve al noroeste"
+	line "para encontrar el"
+	cont "CLARO BRUNSWICK!"
 	done

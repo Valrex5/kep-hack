@@ -1,22 +1,22 @@
 _CeladonMart2Text3::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay..."
-
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	text "El SUPERRELENTE"
+	line "mantiene #MON"
+	cont "débiles a raya..."
+; SúPER REPELENTE MANTIene mons debiles a raya
+	para "¡Hmm, es un"
+	line "mejor REPELENTE!"
 	done
-
+; ¡Mejores objetos para ENTRENadores
 _CeladonMart2Text4::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "Para largos"
+	line "viajes, debes"
+	cont "comprar REVIVIR."
 	done
 
 _CeladonMart2Text5::
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "¡Mejores Objetos"
+	line "para Entrenadores!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "P2: MERCADO PARA"
+	line "    ENTRENADORES"
 	done

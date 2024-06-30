@@ -1,78 +1,78 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "¡Soy BRUNO del"
+	line "ALTO MANDO!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "¡A través riguroso"
+	line "entrenamiento, la"
+	cont "gente y #MON se pueden"
+	cont "volver más fuertes!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "¡He entrenado"
+	line "duro con mis"
+	cont "#MON!"
 
-	para "<PLAYER>!"
+	para "¡<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "¡Te aplasteremos"
+	line "con nuestro poder"
+	cont "superior!"
 
-	para "Hoo hah!"
+	para "¡Ja ja!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "¿Por qué?"
+	line "¿Cómo pude perder?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "¡Mi trabajo está"
+	line "listo! ¡Ve a por tu"
+	cont "siguiente desafío!"
 	done
 
 _BrunoDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Alguien te dice:"
+	line "¡No escapes!"
 	done
 
 _BrunoRematchText::
-	text "I could feel the"
-	line "intensity of your"
-	cont "battle against" 
-	cont "LORELEI, even"
-	cont "from here!"
+	text "¡Pude sentir la"
+	line "intensidad de tu"
+	cont "combate contra" 
+	cont "LORELEI, incluso"
+	cont "desde aquí!"
 	
-	para "Now it's time to"
-	line "show you the true"
-	cont "power of my team!"
+	para "¡Es hora de mostrarte"
+	line "el verdadero poder de"
+	cont "mi equipo!"
 	
-	para "We have trained"
-	line "just as hard as"
-	cont "you have, surely!"
+	para "¡Hemos entrenado"
+	line "tan duro como tú,"
+	cont "eso es seguro!"
 	
-	para "Hoo hah!"
+	para "¡Ja ja!"
 	
-	para "Hoo! HAH!!!"
+	para "¡Ja! ¡¡¡JA!!!"
 	done
 
 _BrunoRematchEndBattleText::
-	text "I have"
-	line "regrets!"
+	text "¡Me"
+	line "arrepiento!"
 	prompt
 
 _BrunoRematchAfterBattleText::
-	text "Ugh! No!"
+	text "¡Ah! ¡No!"
 	
-	para "So my training is"
-	line "still lacking..."
+	para "Así que mi entrenamiento"
+	line "aún no es suficiente..."
 	
-	para "...Go."
+	para "...Ve."
 	
-	para "Do not trouble"
-	line "yourself on my"
-	cont "behalf."
+	para "No te sientas"
+	line "mal por"
+	cont "mí."
 	
-	para "Continue to move"
-	line "forward!"
+	para "¡Sigue"
+	line "adelante!"
 	done

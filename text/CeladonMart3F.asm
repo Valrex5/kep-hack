@@ -1,29 +1,29 @@
 _TM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "¡Oh, hola! ¡Terminé"
+	line "#MON de una vez!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "¿No terminaste?"
+	line "¡Esto podría"
+	cont "ser útil!"
 	prompt
-
+; no terminaste? esto podria ser util?
 _ReceivedTM18Text::
-	text "<PLAYER> received"
+	text "¡<PLAYER> obtuvo"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "¡La MT18 es"
+	line "CONTRAATAQUE!"
+	cont "¡No voy a usarlo"
+	cont "contigo, eso sí!"
 	done
 
 _TM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "¡Tu mochila está"
+	line "llena de objetos!"
 	done
 
 _CeladonMart3Text2::

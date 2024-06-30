@@ -1,69 +1,69 @@
 _ProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "¿Yo? ¡Soy el"
+	line "programador!"
 	done
 
 _GraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "¡Soy el artista"
+	line "gráfico!"
+	cont "¡Yo te dibujé!"
 	done
 
 _WriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "¡Escribí la historia!"
+	line "¿ERIKA es linda, no?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "¡También me"
+	line "gusta Misty!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "¡Oh, y SABRINA,"
+	line "me gusta también!"
 	done
 
 _GameDesignerText::
-	text "Is that right?"
+	text "¿Es eso cierto?"
 
-	para "I'm the game"
-	line "designer!"
+	para "¡Soy el diseñador"
+	line "del juego!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "¡Llenar tu #DEX"
+	line "es difícil, ¡pero"
+	cont "no te rindas!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "¡Cuando termines,"
+	line "ven a verme!"
 	done
 
 _CompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
+	text "¡Wow! ¡Excelente!"
+	line "¡Completaste"
+	cont "tu #DEX!"
+	cont "¡Felicidades!"
 	cont "...@"
 	text_end
 
 _CeladonMansion3Text5::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "¡Es el programa"
+	line "del juego! ¡Jugar"
+	cont "con él podría"
+	cont "arruinar el juego!"
 	done
 
 _CeladonMansion3Text6::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "¡Alguien está"
+	line "jugando en vez"
+	cont "de trabajar!"
 	done
 
 _CeladonMansion3Text7::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "¡Es el guión!"
+	line "¡Mejor no ver"
+	cont "el final!"
 	done
 
 _CeladonMansion3Text8::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Sala de Desarrollo"
 	done
 
 ; Morimoto Boss Fight from LGPE.
@@ -71,42 +71,42 @@ _CeladonMansion3Text8::
 ; Eg. Cooltrainer > Coach Trainer.
 
 _CeladonMansionMorimotoGreeting:: ; LGPE
-	text "I'm MORIMOTO."
+	text "Soy MORIMOTO."
 	
-	para "I help out all"
-	line "the COOLTRAINERs."
+	para "Ayudo a los"
+	line "ENTRENDORES GUAY."
 ;	cont "I have my reasons." this is insanely cringe it's off by ONE CHARACTER
 	
-	para "Do you really want"
-	line "to battle me, the"
-	cont "strongest COOL-"
-	cont "TRAINER?"
+	para "¿Realmente quieres"
+	line "combatirme, el"
+	cont "ENTRENADOR GUAY"
+	cont "más fuerte?"
 	prompt
 
 _CeladonMansionMorimotoFight:: ; LGPE
-	text "Here I go!"
+	text "¡Aquí vamos!"
 	prompt
 
 _CeladonMansionMorimotoNo:: ; USUM
-	text "Oh yeah?"
+	text "¿Oh, sí?"
 	
-	para "Well, that's a"
-	line "real shame. I'm"
-	cont "really good,"
-	cont "after all."
+	para "Bueno, es una"
+	line "lástima. Soy"
+	cont "muy bueno,"
+	cont "después de todo."
 	done
 
 _CeladonMansionMorimotoDefeated:: ; LGPE, compressed
-	text "When"
-	line "it comes down"
-	cont "to it, you are"
-	cont "still the best!"
+	text "¡Después de"
+	line "todo, todavía"
+	cont "eres el"
+	cont "mejor!"
 	prompt
 
 _CeladonMansionMorimotoWin:: ; BW/BW2, compressed & repositioned
-	text "I am"
-	line "the best, after"
-	cont "all!"
+	text "Soy el"
+	line "mejor, después"
+	cont "de todo!"
 	
-	para "Just kidding!"
+	para "¡Sólo bromeo!"
 	prompt
